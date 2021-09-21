@@ -1,0 +1,53 @@
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+    height: auto;
+    position: relative;
+  }
+  
+  .input-field:focus {
+      outline: none;
+  } 
+  
+  .input-field {
+      /* border-top-left-radius: 0; */
+      /* border-bottom-left-radius: 0; */
+      border-left-style: none;
+      /* position: relative; */
+      padding-left: 45px;
+      border-radius: 8px;
+  }
+  
+  .icon {
+      padding: 10px;
+      background: dodgerblue;
+      color: white;
+      min-width: 20px;
+      text-align: center;
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
+      position: absolute;
+      left: 0;
+      z-index: 1;
+    }
+    
+  
+  .links-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .signup-page-links-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .links {
+    color: dodgerblue;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  

@@ -32,6 +32,7 @@ button, input {
 
 input {
     border: 1px solid black;
+    margin: 0;
 }
 
 button {
